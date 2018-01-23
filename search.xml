@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[scratchWeb_0]]></title>
+    <url>%2F20180123%2Fscratch_0%2F</url>
+    <content type="text"><![CDATA[scratch_web Project前期调研笔记 竞品分析核桃编程scratch在线编辑平台平台地址：核桃在线scratch平台!解决方案：加载二次开发的swf文件实现在线scratch编辑功能实现： 1、 在线编辑 2、 导入导出 3、 上传、分享 4、 在线客服相关前端技术： 1、 fetch(最新前端ajax) 2、 swfobject(github开源swf文件加载框架)swfobject_GitHub! 3、 webCpu(??疑为公司内部框架技术)详细分析： 该平台使用scratch官方提供的swf文件进行二次开发编译，生成自己的平台(二次开发编译仅仅包括添加logo并改一个颜色…在下面可以看到和官方swf的对比)。平台添加服务器上传和分享功能。(具体功能实现待详细试用分析) 该平台加载swf使用github开源框架。 编玩边学平台需注册体验。平台地址：编玩边学解决方案：加载二次开发的swf文件实现在线scratch编辑功能实现： 1、 在线编辑 2、 导入导出 3、 上传、分享 4、 在线客服相关前端技术： 1、 使用前端框架(技术栈不够深没看出哪个) 2、 在线客服是外包的。详细分析： 该平台使用scratch官方提供的swf文件进行二次开发编译。完成度和核桃编程不相上下。加载swf部分未使用任何框架技术。 诺丁科技平台地址：诺丁科技解决方案：未发布的javascript做引擎的scratch3.0平台功能实现： 1、 在线编辑 2、 导入导出 3、 上传、分享 4、 在线客服相关前端技术： 1、 scratch3.0详细分析： 该平台使用民间开源scratch3.0二次开发。 解决方案源码编译官网源码不完整。编译不通过。开源开一半、不如闭着自己玩。GG 引用swf(scratch2.0)//TODO本人未接触过flash相关编程，定制需求实现困难。应用难度待测试。预计单模块完成时间：100工时官方swf引用效果：Scrach在线编辑器 开发相关js模块(scratch3)github相关代码。靠谱的没找到。全部都是个人开发者写着玩的。二次开发需要极大投入和长开发周期。都是前台工作。本人专业毕竟是后台…..预计单模块完成时间：n工时 直接引用外部页面//TODO直接iframe引用外部成品网页。简单立竿见影版权问题集成问题项目安全问题预计单模块完成时间：2工时]]></content>
+      <categories>
+        <category>webProject</category>
+      </categories>
+      <tags>
+        <tag>scratchWeb</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[mybatis_1]]></title>
     <url>%2F20180123%2Fmybatis_1%2F</url>
     <content type="text"><![CDATA[mybatis demoProject demo程序需求对订单商品案例中的用户表进行增删改查操作1、 根据用户id查询用户信息2、 根据用户名称模糊查询用户列表3、 添加用户4、 删除用户5、 修改用户 环境准备]]></content>
