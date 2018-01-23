@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://unsc1902.github.io/"/>
-  <updated>2018-01-23T03:21:13.866Z</updated>
+  <updated>2018-01-23T03:28:33.103Z</updated>
   <id>http://unsc1902.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://unsc1902.github.io/20180123/mybatis_0/"/>
     <id>http://unsc1902.github.io/20180123/mybatis_0/</id>
     <published>2018-01-23T01:57:43.000Z</published>
-    <updated>2018-01-23T03:21:13.866Z</updated>
+    <updated>2018-01-23T03:28:33.103Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <h1 id="mybatis总览"><a href="#mybatis总览" class="headerlink" title="mybatis总览"></a>mybatis总览</h1><p>mybatis是一个封装jdbc的持久层框架，mybatic让程序员只关注sql本事，而不需要去关注如链接创建、statement的创建等操作<br>相比hibernate，具有sql透明的优势<br>Mybatis会将输入参数和输出结果进行映射。相对来说，hibernate是将对象关系和表进行映射。</p>
@@ -54,11 +54,11 @@
     <link href="http://unsc1902.github.io/20180123/mybatis_1/"/>
     <id>http://unsc1902.github.io/20180123/mybatis_1/</id>
     <published>2018-01-23T01:57:43.000Z</published>
-    <updated>2018-01-23T03:21:27.989Z</updated>
+    <updated>2018-01-23T03:28:31.694Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <h1 id="demo程序"><a href="#demo程序" class="headerlink" title="demo程序"></a>demo程序</h1><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>对订单商品案例中的用户表进行增删改查操作<br>1、 根据用户id查询用户信息<br>2、 根据用户名称模糊查询用户列表<br>3、 添加用户<br>4、 删除用户<br>5、 修改用户</p>
-]]></content>
+<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2>]]></content>
     
     <summary type="html">
     

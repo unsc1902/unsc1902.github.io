@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[mybatis_1]]></title>
     <url>%2F20180123%2Fmybatis_1%2F</url>
-    <content type="text"><![CDATA[demo程序需求对订单商品案例中的用户表进行增删改查操作1、 根据用户id查询用户信息2、 根据用户名称模糊查询用户列表3、 添加用户4、 删除用户5、 修改用户]]></content>
+    <content type="text"><![CDATA[demo程序需求对订单商品案例中的用户表进行增删改查操作1、 根据用户id查询用户信息2、 根据用户名称模糊查询用户列表3、 添加用户4、 删除用户5、 修改用户 环境准备]]></content>
       <categories>
         <category>框架</category>
       </categories>
