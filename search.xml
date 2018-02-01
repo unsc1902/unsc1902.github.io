@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[scratchWeb_1]]></title>
     <url>%2F20180201%2Fscratch_1%2F</url>
-    <content type="text"><![CDATA[scratch_web 3.0构建问题及解决方案 开源scratch3.0开源github 编译过程npm install issues 编译过程中,chromedriver组件由于各种问题无法安装，尝试网上方法更换镜像源失败npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver 解决方案：下载node_chromedriver源码git clone https://github.com/giggio/node-chromedriver.gitcd node-chromedrivernpm install 安装完依赖包后会进入下载等待状态，此时可中止安装手动下载DownloadSaving to /tmp/chromedriver/chromedriver_linux64.zip后重新./install.js```即可完成安装# 启动 npm start```Then go to here- the playground outputs the default GUI component]]></content>
+    <content type="text"><![CDATA[scratch_web 3.0构建问题及解决方案 开源scratch3.0开源github 编译过程npm install issues 编译过程中,chromedriver组件由于各种问题无法安装，尝试网上方法更换镜像源失败npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver 解决方案：下载node_chromedriver源码git clone https://github.com/giggio/node-chromedriver.gitcd node-chromedrivernpm install 安装完依赖包后会进入下载等待状态，此时可中止安装手动下载Download保存到/tmp/chromedriver/chromedriver_linux64.zip后重新node ./install.js 即可完成安装 启动npm start Then go to here- the playground outputs the default GUI component]]></content>
       <categories>
         <category>webProject</category>
       </categories>

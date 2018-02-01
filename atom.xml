@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://unsc1902.github.io/"/>
-  <updated>2018-02-01T04:36:00.047Z</updated>
+  <updated>2018-02-01T08:27:14.768Z</updated>
   <id>http://unsc1902.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://unsc1902.github.io/20180201/scratch_1/"/>
     <id>http://unsc1902.github.io/20180201/scratch_1/</id>
     <published>2018-02-01T04:36:43.000Z</published>
-    <updated>2018-02-01T04:36:00.047Z</updated>
+    <updated>2018-02-01T08:27:14.768Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>scratch_web 3.0<br>构建问题及解决方案</p>
 </blockquote>
@@ -32,8 +32,10 @@
 </li>
 </ol>
 <p>解决方案：下载node_chromedriver源码<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">git clone https://github.com/giggio/node-chromedriver.git</div><div class="line">cd node-chromedriver</div><div class="line">npm install</div></pre></td></tr></table></figure></p>
-<p>安装完依赖包后会进入下载等待状态，此时可中止安装手动下载<br><a href="https://chromedriver.storage.googleapis.com/2.35/chromedriver_linux64.zip" target="_blank" rel="external">Download</a><br>Saving to /tmp/chromedriver/chromedriver_linux64.zip<br>后重新<figure class="highlight plain"><figcaption><span>./install.js```即可完成安装</span></figcaption><table><tr><td class="code"><pre><div class="line"># 启动</div></pre></td></tr></table></figure></p>
-<p>npm start<br>```<br>Then go to <a href="http://localhost:8601/" target="_blank" rel="external">here</a>- the playground outputs the default GUI component</p>
+<p>安装完依赖包后会进入下载等待状态，此时可中止安装手动下载<br><a href="https://chromedriver.storage.googleapis.com/2.35/chromedriver_linux64.zip" target="_blank" rel="external">Download</a><br>保存到/tmp/chromedriver/chromedriver_linux64.zip后重新<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">node ./install.js</div></pre></td></tr></table></figure></p>
+<p>即可完成安装</p>
+<h1 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h1><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">npm start</div></pre></td></tr></table></figure>
+<p>Then go to <a href="http://localhost:8601/" target="_blank" rel="external">here</a>- the playground outputs the default GUI component</p>
 ]]></content>
     
     <summary type="html">
