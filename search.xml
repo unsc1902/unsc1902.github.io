@@ -1,91 +1,312 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[scratchWeb_设计师备忘录]]></title>
-    <url>%2F20180204%2FsvgDemo%2F</url>
-    <content type="text"><![CDATA[下述所有修改/创作的图片请按 “图片路径_id” 命名, 将’/‘替换为’_’，后打包发给我，即仅需要发给我一个都是图片的压缩包，代码你可以删着玩～ 文件包地址： scratch-gui 密码: yjss 需要创作的图片 id 图片场景 图片用途 图片分辨率 图片格式 图片路径 1 默认启动项目 角色1 95*111 svg /src/lib/default-project 2 默认启动项目 角色2 95*111 svg /src/lib/default-project 3 默认启动项目 背景1 480*360 png /src/lib/default-project 4 默认启动项目 背景2 480*360 png /src/lib/default-project 5 框架 logo 66*25 svg /src/components/menu-bar 6 网页标题 网页logo 16*16 ico /static 需要修改的图片 在文件包内搜索 “ *.svg “,” *.png “,修改到整体风格不违和即可。 需要设计的UI方案(颜色)以#rgb输出，下图为现有项目。 UI主体颜色 文字颜色 你觉得需要修改的其他项目颜色模块颜色等。]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[scratchWeb_2]]></title>
-    <url>%2F20180204%2Fscratch_2%2F</url>
-    <content type="text"><![CDATA[scratch_web 3.0前置技术栈及学习方案 开源scratch3.0开源github 使用技术 node.js webpack react 纯前端语言服务器技术，为服务器实现挑选实现语言及架构。辅助技术 git 域名相关 服务器部署相关 并行工作计划 设计并行出图例 后端设计并行]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[scratchWeb_1]]></title>
-    <url>%2F20180201%2Fscratch_1%2F</url>
-    <content type="text"><![CDATA[scratch_web 3.0构建问题及解决方案 开源scratch3.0开源github 编译过程npm install issues 编译过程中,chromedriver组件由于各种问题无法安装，尝试网上方法更换镜像源失败npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver 解决方案：下载node_chromedriver源码git clone https://github.com/giggio/node-chromedriver.gitcd node-chromedrivernpm install 安装完依赖包后会进入下载等待状态，此时可中止安装手动下载Download保存到/tmp/chromedriver/chromedriver_linux64.zip后重新node ./install.js 即可完成安装 启动npm start Then go to here- the playground outputs the default GUI component]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[scratchWeb_0]]></title>
-    <url>%2F20180123%2Fscratch_0%2F</url>
-    <content type="text"><![CDATA[scratch_web Project前期调研笔记 竞品分析1、 核桃编程scratch在线编辑平台平台地址：核桃在线scratch平台!解决方案：加载二次开发的swf文件实现在线scratch编辑功能实现： 1、 在线编辑 2、 导入导出 3、 上传、分享 4、 在线客服相关前端技术： 1、 fetch(最新前端ajax) 2、 swfobject(github开源swf文件加载框架)swfobject_GitHub! 3、 webCpu(??疑为公司内部框架技术)详细分析： 该平台使用scratch官方提供的swf文件进行二次开发编译，生成自己的平台(二次开发编译仅仅包括添加logo并改一个颜色…在下面可以看到和官方swf的对比)。平台添加服务器上传和分享功能。(具体功能实现待详细试用分析) 该平台加载swf使用github开源框架。 2、 编玩边学平台需注册体验。平台地址：编玩边学解决方案：加载二次开发的swf文件实现在线scratch编辑功能实现： 1、 在线编辑 2、 导入导出 3、 上传、分享 4、 在线客服相关前端技术： 1、 使用前端框架(技术栈不够深没看出哪个) 2、 在线客服是外包的。详细分析： 该平台使用scratch官方提供的swf文件进行二次开发编译。完成度和核桃编程不相上下。加载swf部分未使用任何框架技术。 3、 诺丁科技平台地址：诺丁科技解决方案：未发布的javascript做引擎的scratch3.0平台功能实现： 1、 在线编辑 2、 导入导出 3、 上传、分享 4、 在线客服相关前端技术： 1、 scratch3.0详细分析： 该平台使用民间开源scratch3.0二次开发。 解决方案1、 源码编译官网源码不完整。编译不通过。开源开一半、不如闭着自己玩。GG 2、 引用swf(scratch2.0)//TODO官方在安装软件时附带swf文件。可用于在web页面上部署本人未接触过flash相关编程，定制需求实现困难。应用难度待测试。预计单模块完成时间：100工时官方swf引用效果：Scrach在线编辑器 3、 开发相关js模块(scratch3)github相关代码。靠谱的没找到。全部都是个人开发者写着玩的。二次开发需要极大投入和长开发周期。都是前台工作。本人专业毕竟是后台…..预计单模块完成时间：n工时 4、 直接引用外部页面//TODO直接iframe引用外部成品网页。简单立竿见影版权问题集成问题项目安全问题预计单模块完成时间：2工时 结论及计划包括网易在内大多数平台均使用略微定制swf文件并部署方法搭建自己的scratch编辑平台。拟使用 引用swf 解决方案搭建codingmarch_scarch平台。//TODO预计工时待评估。粗略估计单模块完成需100工时]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[mybatis_1]]></title>
-    <url>%2F20180123%2Fmybatis_1%2F</url>
-    <content type="text"><![CDATA[mybatis demoProject demo程序需求对订单商品案例中的用户表进行增删改查操作1、 根据用户id查询用户信息2、 根据用户名称模糊查询用户列表3、 添加用户4、 删除用户5、 修改用户 环境准备]]></content>
-      <categories>
-        <category>框架</category>
-      </categories>
-      <tags>
-        <tag>mybatis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[mybatis_0]]></title>
-    <url>%2F20180123%2Fmybatis_0%2F</url>
-    <content type="text"><![CDATA[mybatis原理相关 mybatis总览mybatis是一个封装jdbc的持久层框架，mybatic让程序员只关注sql本事，而不需要去关注如链接创建、statement的创建等操作相比hibernate，具有sql透明的优势Mybatis会将输入参数和输出结果进行映射。相对来说，hibernate是将对象关系和表进行映射。 分析jdbc的问题原生jdbc代码public static void main(String[] args) &#123; Connection connection = null; PreparedStatement preparedStatement = null; ResultSet resultSet = null; try &#123; //1、加载数据库驱动 Class.forName("com.mysql.jdbc.Driver"); //2、通过驱动管理类获取数据库链接 connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8", "root", "root"); //3、定义sql语句 ?表示占位符 String sql = "select * from user where username = ?"; //4、获取预处理statement preparedStatement = connection.配置文件(主要操作对象prepareStatement(sql); //5、设置参数，第一个参数为sql语句中参数的序号（从1开始），第二个参数为设置的参数值配置文件(主要操作对象 preparedStatement.setString(1, "王五"); //6、向数据库发出sql执行查询，查询出结果集 resultSet = preparedStatement.executeQuery(); //7、遍历查询结果集 while(resultSet.next())&#123; System.out.println(resultSet.getString("id")+" "+resultSet.getString("username")); &#125; &#125; catch (Exception e) &#123; e.printStackTrace(); &#125;finally&#123; //8、释放资源 if(resultSet!=null)&#123; try &#123; resultSet.close(); &#125; catch (SQLException e) &#123; // TODO Auto-generated catch block e.printStackTrace(); &#125; &#125; if(preparedStatement!=null)&#123; try &#123; preparedStatement.close(); &#125; catch (SQLException e) &#123; // TODO Auto-generated catch block e.printStackTrace(); &#125; &#125; if(connection!=null)&#123; try &#123; connection.close(); &#125; catch (SQLException e) &#123; // TODO Auto-generated catch block e.printStackTrace(); &#125; &#125; &#125; &#125; 原生jdbc存在的问题1、 在创建连接时存在硬编码。（解决方法：全局配置文件）2、 在创建statement时存在硬编码。（解决方法：映射配置文件）3、 频繁的开启和关闭数据库链接会造成数据库性能的下降。（解决方法：数据库连接池（全局配置文件）） mybatis原理从上到下的流程原理 配置文件(主要操作对象)1、 全局配置文件（配置数据源、事务等运行时的信息）2、 映射文件(执行statement的相关信息，包括sql 语句、输入参数、输出结果) SqlSessionFactory作用：生产会话 SqlSession(主要操作对象)作用：他是一个面向程序员的接口，程序员通过该接口可以对数据库进行增删改查方法，该接口有一个默认实现：DefaultSqlSession executor(执行器)作用：SqlSession本身不能直接操作数据库，需要通过executor接口来真正的操作数据库该接口有两个实现：基本执行器、缓存执行器(默认) MappedStatement作用：封装了执行statement时的信息，包括sql语句、输入参数、输出结果。 输入参数的类型1、 简单类型(java基本数据类型)2、 pojo(自定义带getter/setter的bean)3、 hashmap同输出结果的类型 数据库]]></content>
-      <categories>
-        <category>框架</category>
-      </categories>
-      <tags>
-        <tag>mybatis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F20180104%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post$ hexo new "My New Post" More info: Writing Run server$ hexo server More info: Server Generate static files$ hexo generate More info: Generating Deploy to remote sites$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>工具&amp;效率</category>
-      </categories>
-      <tags>
-        <tag>框架</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[山人]]></title>
-    <url>%2F20170502%2F%E5%B1%B1%E4%BA%BA%2F</url>
-    <content type="text"><![CDATA[山&amp;人 本是后山人，偶做前堂客。醉舞经阁半卷书，坐井说天阔。大志戏功名，海斗量福祸。论到囊中羞涩时，怒指乾坤错。]]></content>
-      <categories>
-        <category>悟&amp;空</category>
-      </categories>
-      <tags>
-        <tag>空</tag>
-      </tags>
-  </entry>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[scratchWeb_设计师备忘录]]></title>
+      <url>/20180204/svgDemo/</url>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>scratch3.0定制版设计师备忘</p>
+</blockquote>
+<a id="more"></a>
+<p><strong>下述所有修改/创作的图片请按 <em>“图片路径_id”</em> 命名, 将’/‘替换为’_’，后打包发给我，即仅需要发给我一个都是图片的压缩包，代码你可以删着玩～</strong></p>
+<p>文件包地址： <a href="https://pan.baidu.com/s/1dGFtAxz" target="_blank" rel="external">scratch-gui</a> 密码: yjss</p>
+<h1 id="需要创作的图片"><a href="#需要创作的图片" class="headerlink" title="需要创作的图片"></a>需要创作的图片</h1><table>
+<thead>
+<tr>
+<th style="text-align:center">id</th>
+<th>图片场景</th>
+<th style="text-align:center">图片用途</th>
+<th style="text-align:center">图片分辨率</th>
+<th style="text-align:center">图片格式</th>
+<th>图片路径</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>默认启动项目</td>
+<td style="text-align:center">角色1</td>
+<td style="text-align:center">95*111</td>
+<td style="text-align:center">svg</td>
+<td>/src/lib/default-project</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>默认启动项目</td>
+<td style="text-align:center">角色2</td>
+<td style="text-align:center">95*111</td>
+<td style="text-align:center">svg</td>
+<td>/src/lib/default-project</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>默认启动项目</td>
+<td style="text-align:center">背景1</td>
+<td style="text-align:center">480*360</td>
+<td style="text-align:center">png</td>
+<td>/src/lib/default-project</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td>默认启动项目</td>
+<td style="text-align:center">背景2</td>
+<td style="text-align:center">480*360</td>
+<td style="text-align:center">png</td>
+<td>/src/lib/default-project</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td>框架</td>
+<td style="text-align:center">logo</td>
+<td style="text-align:center">66*25</td>
+<td style="text-align:center">svg</td>
+<td>/src/components/menu-bar</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td>网页标题</td>
+<td style="text-align:center">网页logo</td>
+<td style="text-align:center">16*16</td>
+<td style="text-align:center">ico</td>
+<td>/static</td>
+</tr>
+</tbody>
+</table>
+<h1 id="需要修改的图片"><a href="#需要修改的图片" class="headerlink" title="需要修改的图片"></a>需要修改的图片</h1><p>  在文件包内搜索 “ *.svg “,” *.png “,修改到整体风格不违和即可。</p>
+<h1 id="需要设计的UI方案-颜色"><a href="#需要设计的UI方案-颜色" class="headerlink" title="需要设计的UI方案(颜色)"></a>需要设计的UI方案(颜色)</h1><p><em>以#rgb输出，下图为现有项目。</em><br><img src="http://op24jm4cw.bkt.clouddn.com/438b0e327a0432ce9aed8eb3dc2aaa3b.png" alt="scratch-gui"></p>
+<ol>
+<li>UI主体颜色</li>
+<li>文字颜色</li>
+<li>你觉得需要修改的其他项目颜色模块颜色等。</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> webProject </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> scratchWeb </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[scratchWeb_2]]></title>
+      <url>/20180204/scratch_2/</url>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>scratch_web 3.0<br>前置技术栈及学习方案</p>
+</blockquote>
+<a id="more"></a>
+<h1 id="开源scratch3-0"><a href="#开源scratch3-0" class="headerlink" title="开源scratch3.0"></a>开源scratch3.0</h1><p>开源<a href="https://github.com/LLK/scratch-gui" target="_blank" rel="external">github</a></p>
+<h1 id="使用技术"><a href="#使用技术" class="headerlink" title="使用技术"></a>使用技术</h1><ol>
+<li>node.js</li>
+<li>webpack</li>
+<li>react</li>
+<li>纯前端语言服务器技术，为服务器实现挑选实现语言及架构。<h1 id="辅助技术"><a href="#辅助技术" class="headerlink" title="辅助技术"></a>辅助技术</h1></li>
+<li>git</li>
+<li>域名相关</li>
+<li>服务器部署相关</li>
+</ol>
+<h1 id="并行工作计划"><a href="#并行工作计划" class="headerlink" title="并行工作计划"></a>并行工作计划</h1><ol>
+<li>设计并行出图例</li>
+<li>后端设计并行</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> webProject </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> scratchWeb </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[scratchWeb_1]]></title>
+      <url>/20180201/scratch_1/</url>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>scratch_web 3.0<br>构建问题及解决方案</p>
+</blockquote>
+<a id="more"></a>
+<h1 id="开源scratch3-0"><a href="#开源scratch3-0" class="headerlink" title="开源scratch3.0"></a>开源scratch3.0</h1><p>开源<a href="https://github.com/LLK/scratch-gui" target="_blank" rel="external">github</a></p>
+<h1 id="编译过程"><a href="#编译过程" class="headerlink" title="编译过程"></a>编译过程</h1><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">npm install</div></pre></td></tr></table></figure>
+<h2 id="issues"><a href="#issues" class="headerlink" title="issues"></a>issues</h2><ol>
+<li>编译过程中,chromedriver组件由于各种问题无法安装，尝试网上方法更换镜像源失败<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>解决方案：下载node_chromedriver源码<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">git clone https://github.com/giggio/node-chromedriver.git</div><div class="line">cd node-chromedriver</div><div class="line">npm install</div></pre></td></tr></table></figure></p>
+<p>安装完依赖包后会进入下载等待状态，此时可中止安装手动下载<br><a href="https://chromedriver.storage.googleapis.com/2.35/chromedriver_linux64.zip" target="_blank" rel="external">Download</a><br>保存到/tmp/chromedriver/chromedriver_linux64.zip后重新<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">node ./install.js</div></pre></td></tr></table></figure></p>
+<p>即可完成安装</p>
+<h1 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h1><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">npm start</div></pre></td></tr></table></figure>
+<p>Then go to <a href="http://localhost:8601/" target="_blank" rel="external">here</a>- the playground outputs the default GUI component</p>
+]]></content>
+      
+        <categories>
+            
+            <category> webProject </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> scratchWeb </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[scratchWeb_0]]></title>
+      <url>/20180123/scratch_0/</url>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>scratch_web Project<br>前期调研笔记</p>
+</blockquote>
+<a id="more"></a>
+<h1 id="竞品分析"><a href="#竞品分析" class="headerlink" title="竞品分析"></a>竞品分析</h1><h2 id="1、-核桃编程scratch在线编辑平台"><a href="#1、-核桃编程scratch在线编辑平台" class="headerlink" title="1、 核桃编程scratch在线编辑平台"></a>1、 核桃编程scratch在线编辑平台</h2><p>平台地址：<a href="http://scratch.pipacoding.com/scratch/Scratch.html" target="_blank" rel="external">核桃在线scratch平台</a>!<br>解决方案：加载二次开发的swf文件实现在线scratch编辑<br><img src="http://op24jm4cw.bkt.clouddn.com/fa905e66f83653f03a8ee3c2ea81cc31.png" alt="pipacoding_scratch"><br>功能实现：<br>  1、 在线编辑<br>  2、 导入导出<br>  3、 上传、分享<br>  4、 在线客服<br>相关前端技术：<br>  1、 fetch(最新前端ajax)<br>  2、 swfobject(github开源swf文件加载框架)<a href="https://github.com/swfobject/swfobject" target="_blank" rel="external">swfobject_GitHub</a>!<br>  3、 webCpu(??疑为公司内部框架技术)<br>详细分析：<br>  该平台使用scratch官方提供的swf文件进行二次开发编译，生成自己的平台(二次开发编译仅仅包括添加logo并改一个颜色…在下面可以看到和官方swf的对比)。平台添加服务器上传和分享功能。(具体功能实现待详细试用分析)<br>  该平台加载swf使用github开源框架。</p>
+<h2 id="2、-编玩边学"><a href="#2、-编玩边学" class="headerlink" title="2、 编玩边学"></a>2、 编玩边学</h2><p>平台需注册体验。<br>平台地址：<a href="http://www.codepku.com/work/scratch" target="_blank" rel="external">编玩边学</a><br>解决方案：加载二次开发的swf文件实现在线scratch编辑<br><img src="http://op24jm4cw.bkt.clouddn.com/20168e618cf6dcc05e3f05ff550f692f.png" alt="codepku.com"><br>功能实现：<br>  1、 在线编辑<br>  2、 导入导出<br>  3、 上传、分享<br>  4、 在线客服<br>相关前端技术：<br>  1、 使用前端框架(技术栈不够深没看出哪个)<br>  2、 在线客服是外包的。<br>详细分析：<br>  该平台使用scratch官方提供的swf文件进行二次开发编译。完成度和核桃编程不相上下。加载swf部分未使用任何框架技术。</p>
+<h2 id="3、-诺丁科技"><a href="#3、-诺丁科技" class="headerlink" title="3、 诺丁科技"></a>3、 诺丁科技</h2><p>平台地址：<a href="http://editor.noatin.com/blockly_html/html/index.html" target="_blank" rel="external">诺丁科技</a><br>解决方案：未发布的javascript做引擎的scratch3.0平台<br><img src="http://op24jm4cw.bkt.clouddn.com/627d43b66d93856dc705eb7956332b9a.png" alt="noatin.com"><br>功能实现：<br>  1、 在线编辑<br>  2、 导入导出<br>  3、 上传、分享<br>  4、 在线客服<br>相关前端技术：<br>  1、 scratch3.0<br>详细分析：<br>  该平台使用民间开源scratch3.0二次开发。</p>
+<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><h2 id="1、-源码编译"><a href="#1、-源码编译" class="headerlink" title="1、 源码编译"></a>1、 源码编译</h2><p>官网源码不完整。编译不通过。<br><em>开源开一半、不如闭着自己玩。</em><br><strong>GG</strong></p>
+<h2 id="2、-引用swf-scratch2-0"><a href="#2、-引用swf-scratch2-0" class="headerlink" title="2、 引用swf(scratch2.0)"></a>2、 引用swf(scratch2.0)</h2><p>//TODO<br>官方在安装软件时附带swf文件。可用于在web页面上部署<br>本人未接触过flash相关编程，定制需求实现困难。<br>应用难度待测试。<br><strong>预计单模块完成时间：100工时</strong><br>官方swf引用效果：<br><img src="http://op24jm4cw.bkt.clouddn.com/dccbb0bd88e5d90b7c6f21cbb2e913f4.png" alt="shinelab.scratch"><br><a href="http://scratch.shinelab.cn/" target="_blank" rel="external">Scrach在线编辑器</a></p>
+<h2 id="3、-开发相关js模块-scratch3"><a href="#3、-开发相关js模块-scratch3" class="headerlink" title="3、 开发相关js模块(scratch3)"></a>3、 开发相关js模块(scratch3)</h2><p>github相关代码。靠谱的没找到。全部都是个人开发者写着玩的。二次开发需要极大投入和长开发周期。都是前台工作。本人专业毕竟是后台…..<br><strong>预计单模块完成时间：n工时</strong></p>
+<h2 id="4、-直接引用外部页面"><a href="#4、-直接引用外部页面" class="headerlink" title="4、 直接引用外部页面"></a>4、 直接引用外部页面</h2><p>//TODO<br>直接iframe引用外部成品网页。简单立竿见影<br>版权问题<br>集成问题<br>项目安全问题<br><strong>预计单模块完成时间：2工时</strong></p>
+<h1 id="结论及计划"><a href="#结论及计划" class="headerlink" title="结论及计划"></a>结论及计划</h1><p>包括网易在内大多数平台均使用略微定制swf文件并部署方法搭建自己的scratch编辑平台。<br>拟使用 <strong>引用swf</strong> 解决方案搭建codingmarch_scarch平台。<br>//TODO<br>预计工时待评估。<strong>粗略估计单模块完成需100工时</strong></p>
+]]></content>
+      
+        <categories>
+            
+            <category> webProject </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> scratchWeb </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[mybatis_1]]></title>
+      <url>/20180123/mybatis_1/</url>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>mybatis demoProject</p>
+</blockquote>
+<a id="more"></a>
+<h1 id="demo程序"><a href="#demo程序" class="headerlink" title="demo程序"></a>demo程序</h1><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>对订单商品案例中的用户表进行增删改查操作<br>1、 根据用户id查询用户信息<br>2、 根据用户名称模糊查询用户列表<br>3、 添加用户<br>4、 删除用户<br>5、 修改用户</p>
+<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2>]]></content>
+      
+        <categories>
+            
+            <category> 框架 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> mybatis </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[mybatis_0]]></title>
+      <url>/20180123/mybatis_0/</url>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>mybatis原理相关</p>
+</blockquote>
+<a id="more"></a>
+<h1 id="mybatis总览"><a href="#mybatis总览" class="headerlink" title="mybatis总览"></a>mybatis总览</h1><p>mybatis是一个封装jdbc的持久层框架，mybatic让程序员只关注sql本事，而不需要去关注如链接创建、statement的创建等操作<br>相比hibernate，具有sql透明的优势<br>Mybatis会将输入参数和输出结果进行映射。相对来说，hibernate是将对象关系和表进行映射。</p>
+<h1 id="分析jdbc的问题"><a href="#分析jdbc的问题" class="headerlink" title="分析jdbc的问题"></a>分析jdbc的问题</h1><h2 id="原生jdbc代码"><a href="#原生jdbc代码" class="headerlink" title="原生jdbc代码"></a>原生jdbc代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</div><div class="line">			Connection connection = <span class="keyword">null</span>;</div><div class="line">			PreparedStatement preparedStatement = <span class="keyword">null</span>;</div><div class="line">			ResultSet resultSet = <span class="keyword">null</span>;</div><div class="line">			<span class="keyword">try</span> &#123;</div><div class="line">				<span class="comment">//1、加载数据库驱动</span></div><div class="line">				Class.forName(<span class="string">"com.mysql.jdbc.Driver"</span>);</div><div class="line">				<span class="comment">//2、通过驱动管理类获取数据库链接</span></div><div class="line">				connection =  DriverManager.getConnection(<span class="string">"jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8"</span>, <span class="string">"root"</span>, <span class="string">"root"</span>);</div><div class="line">				<span class="comment">//3、定义sql语句 ?表示占位符</span></div><div class="line">			String sql = <span class="string">"select * from user where username = ?"</span>;</div><div class="line">				<span class="comment">//4、获取预处理statement</span></div><div class="line">				preparedStatement = connection.配置文件(主要操作对象prepareStatement(sql);</div><div class="line">				<span class="comment">//5、设置参数，第一个参数为sql语句中参数的序号（从1开始），第二个参数为设置的参数值配置文件(主要操作对象</span></div><div class="line">				preparedStatement.setString(<span class="number">1</span>, <span class="string">"王五"</span>);</div><div class="line">				<span class="comment">//6、向数据库发出sql执行查询，查询出结果集</span></div><div class="line">				resultSet =  preparedStatement.executeQuery();</div><div class="line">				<span class="comment">//7、遍历查询结果集</span></div><div class="line">				<span class="keyword">while</span>(resultSet.next())&#123;</div><div class="line">					System.out.println(resultSet.getString(<span class="string">"id"</span>)+<span class="string">"  "</span>+resultSet.getString(<span class="string">"username"</span>));</div><div class="line">				&#125;</div><div class="line">			&#125; <span class="keyword">catch</span> (Exception e) &#123;</div><div class="line">				e.printStackTrace();</div><div class="line">			&#125;<span class="keyword">finally</span>&#123;</div><div class="line">				<span class="comment">//8、释放资源</span></div><div class="line">				<span class="keyword">if</span>(resultSet!=<span class="keyword">null</span>)&#123;</div><div class="line">					<span class="keyword">try</span> &#123;</div><div class="line">						resultSet.close();</div><div class="line">					&#125; <span class="keyword">catch</span> (SQLException e) &#123;</div><div class="line">						<span class="comment">// TODO Auto-generated catch block</span></div><div class="line">						e.printStackTrace();</div><div class="line">					&#125;</div><div class="line">				&#125;</div><div class="line">				<span class="keyword">if</span>(preparedStatement!=<span class="keyword">null</span>)&#123;</div><div class="line">					<span class="keyword">try</span> &#123;</div><div class="line">						preparedStatement.close();</div><div class="line">					&#125; <span class="keyword">catch</span> (SQLException e) &#123;</div><div class="line">						<span class="comment">// TODO Auto-generated catch block</span></div><div class="line">						e.printStackTrace();</div><div class="line">					&#125;</div><div class="line">				&#125;</div><div class="line">				<span class="keyword">if</span>(connection!=<span class="keyword">null</span>)&#123;</div><div class="line">					<span class="keyword">try</span> &#123;</div><div class="line">						connection.close();</div><div class="line">					&#125; <span class="keyword">catch</span> (SQLException e) &#123;</div><div class="line">						<span class="comment">// TODO Auto-generated catch block</span></div><div class="line">						e.printStackTrace();</div><div class="line">					&#125;</div><div class="line">				&#125;</div><div class="line">			&#125;</div><div class="line">		&#125;</div></pre></td></tr></table></figure>
+<h2 id="原生jdbc存在的问题"><a href="#原生jdbc存在的问题" class="headerlink" title="原生jdbc存在的问题"></a>原生jdbc存在的问题</h2><p>1、 在创建连接时存在硬编码。（解决方法：全局配置文件）<br>2、 在创建statement时存在硬编码。（解决方法：映射配置文件）<br>3、 频繁的开启和关闭数据库链接会造成数据库性能的下降。（解决方法：数据库连接池（全局配置文件））</p>
+<h1 id="mybatis原理"><a href="#mybatis原理" class="headerlink" title="mybatis原理"></a>mybatis原理</h1><p>从上到下的流程原理</p>
+<h2 id="配置文件-主要操作对象"><a href="#配置文件-主要操作对象" class="headerlink" title="配置文件(主要操作对象)"></a>配置文件(主要操作对象)</h2><p>1、 全局配置文件（配置数据源、事务等运行时的信息）<br>2、 映射文件(执行statement的相关信息，包括sql 语句、输入参数、输出结果)</p>
+<h2 id="SqlSessionFactory"><a href="#SqlSessionFactory" class="headerlink" title="SqlSessionFactory"></a>SqlSessionFactory</h2><p>作用：生产会话</p>
+<h2 id="SqlSession-主要操作对象"><a href="#SqlSession-主要操作对象" class="headerlink" title="SqlSession(主要操作对象)"></a>SqlSession(主要操作对象)</h2><p>作用：他是一个面向程序员的接口，程序员通过该接口可以对数据库进行增删改查方法，该接口有一个默认实现：DefaultSqlSession</p>
+<h2 id="executor-执行器"><a href="#executor-执行器" class="headerlink" title="executor(执行器)"></a>executor(执行器)</h2><p>作用：SqlSession本身不能直接操作数据库，需要通过executor接口来真正的操作数据库<br>该接口有两个实现：基本执行器、缓存执行器(默认)</p>
+<h2 id="MappedStatement"><a href="#MappedStatement" class="headerlink" title="MappedStatement"></a>MappedStatement</h2><p>作用：封装了执行statement时的信息，包括sql语句、输入参数、输出结果。</p>
+<h3 id="输入参数的类型"><a href="#输入参数的类型" class="headerlink" title="输入参数的类型"></a>输入参数的类型</h3><p>1、 简单类型(java基本数据类型)<br>2、 pojo(自定义带getter/setter的bean)<br>3、 hashmap<br>同输出结果的类型</p>
+<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2>]]></content>
+      
+        <categories>
+            
+            <category> 框架 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> mybatis </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>/20180104/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 工具&amp;效率 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 框架 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[山人]]></title>
+      <url>/20170502/%E5%B1%B1%E4%BA%BA/</url>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>山&amp;人</p>
+</blockquote>
+<center>本是后山人，<br>偶做前堂客。<br>醉舞经阁半卷书，<br>坐井说天阔。<br>大志戏功名，<br>海斗量福祸。<br>论到囊中羞涩时，<br>怒指乾坤错。<br></center>
+]]></content>
+      
+        <categories>
+            
+            <category> 悟&amp;空 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 空 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
 </search>
