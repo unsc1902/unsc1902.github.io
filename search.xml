@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[scratchWeb_设计师备忘录]]></title>
+    <url>%2F20180204%2FsvgDemo%2F</url>
+    <content type="text"><![CDATA[下述所有修改/创作的图片请按 “图片路径_id” 命名, 将’/‘替换为’_’，后打包发给我，即仅需要发给我一个都是图片的压缩包，代码你可以删着玩～ 文件包地址： scratch-gui 密码: yjss 需要创作的图片 id 图片场景 图片用途 图片分辨率 图片格式 图片路径 1 默认启动项目 角色1 95*111 svg /src/lib/default-project 2 默认启动项目 角色2 95*111 svg /src/lib/default-project 3 默认启动项目 背景1 480*360 png /src/lib/default-project 4 默认启动项目 背景2 480*360 png /src/lib/default-project 5 框架 logo 66*25 svg /src/components/menu-bar 6 网页标题 网页logo 16*16 ico /static 需要修改的图片 在文件包内搜索 “ *.svg “,” *.png “,修改到整体风格不违和即可。 需要设计的UI方案(颜色)以#rgb输出，下图为现有项目。 UI主体颜色 文字颜色 你觉得需要修改的其他项目颜色模块颜色等。]]></content>
+      <categories>
+        <category>webProject</category>
+      </categories>
+      <tags>
+        <tag>scratchWeb</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[scratchWeb_2]]></title>
+    <url>%2F20180204%2Fscratch_2%2F</url>
+    <content type="text"><![CDATA[scratch_web 3.0前置技术栈及学习方案 开源scratch3.0开源github 使用技术 node.js webpack react 纯前端语言服务器技术，为服务器实现挑选实现语言及架构。辅助技术 git 域名相关 服务器部署相关 并行工作计划 设计并行出图例 后端设计并行]]></content>
+      <categories>
+        <category>webProject</category>
+      </categories>
+      <tags>
+        <tag>scratchWeb</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[scratchWeb_1]]></title>
     <url>%2F20180201%2Fscratch_1%2F</url>
     <content type="text"><![CDATA[scratch_web 3.0构建问题及解决方案 开源scratch3.0开源github 编译过程npm install issues 编译过程中,chromedriver组件由于各种问题无法安装，尝试网上方法更换镜像源失败npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver 解决方案：下载node_chromedriver源码git clone https://github.com/giggio/node-chromedriver.gitcd node-chromedrivernpm install 安装完依赖包后会进入下载等待状态，此时可中止安装手动下载Download保存到/tmp/chromedriver/chromedriver_linux64.zip后重新node ./install.js 即可完成安装 启动npm start Then go to here- the playground outputs the default GUI component]]></content>
