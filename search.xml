@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[scratchWeb_版本日志]]></title>
+    <url>%2F20180210%2Fscratch_3%2F</url>
+    <content type="text"><![CDATA[codingScratch版本发布日志 codingScratch开源地址github发布地址codingScratch备用地址codingScratch in unsc1902 版本号：v 0.0.1 发布日期：2018-02-10 版本更新： scratch基本功能 项目下载、上传功能。 ui定制 默认项目定制 issue||bug||todo 定制素材库支持 中文ui支持 ui深度定制 默认项目配置 登陆器 课程管理、加载模块]]></content>
+      <categories>
+        <category>webProject</category>
+      </categories>
+      <tags>
+        <tag>scratchWeb</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[react_1]]></title>
     <url>%2F20180206%2Freact_1%2F</url>
     <content type="text"><![CDATA[react前端框架学习笔记 学习心得：react是一个组件驱动的前端框架 React中文文档前置技术栈javascrpit ES6语法 箭头函数 (parameters)=&gt;&#123;statements&#125;//等价于function(paramenters)&#123; return statements;&#125; 类 class Rectangle &#123; constructor(height, width) &#123; this.height = height; this.width = width; &#125; // Getter get area() &#123; return this.calcArea(); &#125; // Method calcArea() &#123; return this.height * this.width; &#125;&#125;const square = new Rectangle(10, 10);console.log(square.area); // 100 模板字符串使用反引号引出的字符串。保留所有的格式和缩进。 var template = ` &lt;ul&gt; &lt;% for(var i=0; i &lt;data.supplies.length; i++) &#123; %&gt; &lt;li&gt;&lt;%= data.supplies[i] %&gt;&lt;/li&gt; &lt;%&#125; %&gt; &lt;/ul&gt; `; let相当于var，声明一个块级作用域的本地变量。 jsxjavascript的语法扩展。function formatName(user) &#123; return user.firstName + &apos; &apos; + user.lastName;&#125;const user = &#123; firstName: &apos;Harper&apos;, lastName: &apos;Perez&apos;&#125;;const element = ( &lt;h1&gt; Hello, &#123;formatName(user)&#125;! &lt;/h1&gt;);ReactDOM.render( element, document.getElementById(&apos;root&apos;)); react基础首先我们在一个 HTML 页面中添加一个 id=”root” 的 :&lt;div id="root"&gt;&lt;/div&gt; 要将 React 元素渲染到根 DOM 节点中，我们通过把它们都传递给 ReactDOM.render() 的方法来将其渲染到页面上：const element = &lt;h1&gt;Hello, world&lt;/h1&gt;;ReactDOM.render( element, document.getElementById(&apos;root&apos;)); React 元素都是 immutable 不可变的。当元素被创建之后，你是无法改变其内容或属性的。更新界面的唯一办法是创建一个新的元素，然后将它传入 ReactDOM.render() 方法：function tick() &#123; const element = ( &lt;div&gt; &lt;h1&gt;Hello, world!&lt;/h1&gt; &lt;h2&gt;It is &#123;new Date().toLocaleTimeString()&#125;.&lt;/h2&gt; &lt;/div&gt; ); ReactDOM.render( element, document.getElementById(&apos;root&apos;) );&#125;setInterval(tick, 1000); 组件&amp;props组件名称必须以大写字母开头。组件不可改变props的值function Welcome(props) &#123; return &lt;h1&gt;Hello, &#123;props.name&#125;&lt;/h1&gt;;&#125;//组件const element = &lt;Welcome name=&quot;Sara&quot; /&gt;;//name---&gt;props.nameReactDOM.render( element, document.getElementById(&apos;root&apos;));]]></content>
