@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://unsc1902.github.io/"/>
-  <updated>2018-02-28T08:54:24.784Z</updated>
+  <updated>2018-02-28T08:57:14.908Z</updated>
   <id>http://unsc1902.github.io/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://unsc1902.github.io/20180228/scratch_3/"/>
     <id>http://unsc1902.github.io/20180228/scratch_3/</id>
     <published>2018-02-28T08:56:43.000Z</published>
-    <updated>2018-02-28T08:54:24.784Z</updated>
+    <updated>2018-02-28T08:57:14.908Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>codingScratch版本发布日志</p>
 </blockquote>
 <a id="more"></a>
-<h1 id="codingScratch"><a href="#codingScratch" class="headerlink" title="codingScratch"></a>codingScratch</h1><p>开源地址：<a href="https://github.com/unsc1902/scratch-gui.git" target="_blank" rel="external">github</a><br>发布地址：<a href="http://www.codingmarch.com/codingScratch/" target="_blank" rel="external">codingScratch</a><br>自有素材库的跨域访问问题导致备用地址暂时失效，待搭建服务器后重新启用<br>~~ 备用地址：<a href="https://unsc1902.github.io/scratch-gui/">codingScratch in unsc1902</a> ~~</p>
+<h1 id="codingScratch"><a href="#codingScratch" class="headerlink" title="codingScratch"></a>codingScratch</h1><p>开源地址：<a href="https://github.com/unsc1902/scratch-gui.git" target="_blank" rel="external">github</a><br>发布地址：<a href="http://www.codingmarch.com/codingScratch/" target="_blank" rel="external">codingScratch</a><br><em>自有素材库的跨域访问问题导致备用地址暂时失效，待搭建服务器后重新启用</em><br><del>备用地址：<a href="https://unsc1902.github.io/scratch-gui/">codingScratch in unsc1902</a></del></p>
 <h1 id="版本号：v-0-1-0"><a href="#版本号：v-0-1-0" class="headerlink" title="版本号：v 0.1.0"></a>版本号：v 0.1.0</h1><ol>
 <li>发布日期：2018-2-28</li>
 <li>版本更新：<ul>
