@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[scratchWeb_4]]></title>
+    <url>%2F20180318%2Fscratch_4%2F</url>
+    <content type="text"><![CDATA[scratch_web Project前端需求说明 需求编号：001需求说明替换原页面文字模块为视频模块修改抬头为：大标题：codingScratch试听课小标题：码趣超人大战黑暗使者]]></content>
+      <categories>
+        <category>webProject</category>
+      </categories>
+      <tags>
+        <tag>scratchWeb</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[scratchWeb_版本日志]]></title>
     <url>%2F20180301%2Fscratch_3%2F</url>
     <content type="text"><![CDATA[codingScratch版本发布日志 codingScratch开源地址：github发布地址：codingScratch自有素材库的跨域访问问题导致备用地址暂时失效，待搭建服务器后重新启用备用地址：codingScratch in unsc1902 版本号：v 0.1.0 发布日期：2018-2-28 版本更新： UI中文支持 Blocks中文支持 角色素材库、背景素材库、声音素材库剥离 默认项目定制 可正式作为教学工具使用 issue||bug||todo 语言默认为中文 丰富当前自有素材库 外部服务器框架的搭建 版本号：v 0.0.1 发布日期：2018-02-10 版本更新： scratch基本功能 项目下载、上传功能。 ui定制 默认项目定制 issue||bug||todo 定制素材库支持 中文ui支持 ui深度定制 默认项目配置 登陆器 课程管理、加载模块]]></content>
