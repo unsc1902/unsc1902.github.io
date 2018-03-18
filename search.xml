@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[scratchWeb_4]]></title>
     <url>%2F20180318%2Fscratch_4%2F</url>
-    <content type="text"><![CDATA[scratch_web Project前端需求说明 需求编号：001需求说明替换原页面文字模块为视频模块修改抬头为：大标题：codingScratch试听课小标题：码趣超人大战黑暗使者 视频链接未定暂时用原视频。指明链接接口待视频上传后我来修改。]]></content>
+    <content type="text"><![CDATA[scratch_web Project前端需求说明 需求编号：001需求说明替换原页面文字模块为视频模块修改码趣课程内原文字模块的抬头为：大标题：codingScratch试听课小标题：码趣超人大战黑暗使者 视频链接未定暂时用原视频。指明链接接口待视频上传后我来修改。]]></content>
       <categories>
         <category>webProject</category>
       </categories>
