@@ -1,124 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[scratchWeb_4]]></title>
-    <url>%2F20180318%2Fscratch_4%2F</url>
-    <content type="text"><![CDATA[scratch_web Project前端需求说明 需求编号：001需求说明替换原页面文字模块为视频模块修改码趣课程内原文字模块的抬头为：大标题：codingScratch试听课小标题：码趣超人大战黑暗使者 视频链接未定暂时用原视频。指明链接接口待视频上传后我来修改。]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[scratchWeb_版本日志]]></title>
-    <url>%2F20180301%2Fscratch_3%2F</url>
-    <content type="text"><![CDATA[codingScratch版本发布日志 codingScratch开源地址：github发布地址：codingScratch自有素材库的跨域访问问题导致备用地址暂时失效，待搭建服务器后重新启用备用地址：codingScratch in unsc1902 版本号：v 0.1.0 发布日期：2018-2-28 版本更新： UI中文支持 Blocks中文支持 角色素材库、背景素材库、声音素材库剥离 默认项目定制 可正式作为教学工具使用 issue||bug||todo 语言默认为中文 丰富当前自有素材库 外部服务器框架的搭建 版本号：v 0.0.1 发布日期：2018-02-10 版本更新： scratch基本功能 项目下载、上传功能。 ui定制 默认项目定制 issue||bug||todo 定制素材库支持 中文ui支持 ui深度定制 默认项目配置 登陆器 课程管理、加载模块]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[react_1]]></title>
-    <url>%2F20180206%2Freact_1%2F</url>
-    <content type="text"><![CDATA[react前端框架学习笔记 学习心得：react是一个组件驱动的前端框架 React中文文档前置技术栈javascrpit ES6语法 箭头函数 (parameters)=&gt;&#123;statements&#125;//等价于function(paramenters)&#123; return statements;&#125; 类 class Rectangle &#123; constructor(height, width) &#123; this.height = height; this.width = width; &#125; // Getter get area() &#123; return this.calcArea(); &#125; // Method calcArea() &#123; return this.height * this.width; &#125;&#125;const square = new Rectangle(10, 10);console.log(square.area); // 100 模板字符串使用反引号引出的字符串。保留所有的格式和缩进。 var template = ` &lt;ul&gt; &lt;% for(var i=0; i &lt;data.supplies.length; i++) &#123; %&gt; &lt;li&gt;&lt;%= data.supplies[i] %&gt;&lt;/li&gt; &lt;%&#125; %&gt; &lt;/ul&gt; `; let相当于var，声明一个块级作用域的本地变量。 jsxjavascript的语法扩展。function formatName(user) &#123; return user.firstName + &apos; &apos; + user.lastName;&#125;const user = &#123; firstName: &apos;Harper&apos;, lastName: &apos;Perez&apos;&#125;;const element = ( &lt;h1&gt; Hello, &#123;formatName(user)&#125;! &lt;/h1&gt;);ReactDOM.render( element, document.getElementById(&apos;root&apos;)); react基础首先我们在一个 HTML 页面中添加一个 id=”root” 的 :&lt;div id="root"&gt;&lt;/div&gt; 要将 React 元素渲染到根 DOM 节点中，我们通过把它们都传递给 ReactDOM.render() 的方法来将其渲染到页面上：const element = &lt;h1&gt;Hello, world&lt;/h1&gt;;ReactDOM.render( element, document.getElementById(&apos;root&apos;)); React 元素都是 immutable 不可变的。当元素被创建之后，你是无法改变其内容或属性的。更新界面的唯一办法是创建一个新的元素，然后将它传入 ReactDOM.render() 方法：function tick() &#123; const element = ( &lt;div&gt; &lt;h1&gt;Hello, world!&lt;/h1&gt; &lt;h2&gt;It is &#123;new Date().toLocaleTimeString()&#125;.&lt;/h2&gt; &lt;/div&gt; ); ReactDOM.render( element, document.getElementById(&apos;root&apos;) );&#125;setInterval(tick, 1000); 组件&amp;props组件名称必须以大写字母开头。组件不可改变props的值function Welcome(props) &#123; return &lt;h1&gt;Hello, &#123;props.name&#125;&lt;/h1&gt;;&#125;//组件const element = &lt;Welcome name=&quot;Sara&quot; /&gt;;//name---&gt;props.nameReactDOM.render( element, document.getElementById(&apos;root&apos;));]]></content>
-      <categories>
-        <category>框架</category>
-      </categories>
-      <tags>
-        <tag>react</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[scratchWeb_设计师备忘录]]></title>
-    <url>%2F20180204%2FsvgDemo%2F</url>
-    <content type="text"><![CDATA[scratch3.0定制版设计师备忘 下述所有修改/创作的图片请按 “图片路径_id” 命名, 将’/‘替换为’_’，后打包发给我，即仅需要发给我一个都是图片的压缩包，代码你可以删着玩～ 文件包地址： scratch-gui 密码: yjss 需要创作的图片 id 图片场景 图片用途 图片分辨率 图片格式 图片路径 1 默认启动项目 角色1 95*111 svg /src/lib/default-project 2 默认启动项目 角色2 95*111 svg /src/lib/default-project 3 默认启动项目 背景1 480*360 png /src/lib/default-project 4 默认启动项目 背景2 480*360 png /src/lib/default-project 5 框架 logo 66*25 svg /src/components/menu-bar 6 网页标题 网页logo 16*16 ico /static 需要修改的图片 在文件包内搜索 “ *.svg “,” *.png “,修改到整体风格不违和即可。 需要设计的UI方案(颜色)以#rgb输出，下图为现有项目。 UI主体颜色 文字颜色 你觉得需要修改的其他项目颜色模块颜色等。]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[scratchWeb_2]]></title>
-    <url>%2F20180204%2Fscratch_2%2F</url>
-    <content type="text"><![CDATA[scratch_web 3.0前置技术栈及学习方案 开源scratch3.0开源github 使用技术 node.js webpack react 纯前端语言服务器技术，为服务器实现挑选实现语言及架构。辅助技术 git 域名相关 服务器部署相关 并行工作计划 设计并行出图例 后端设计并行]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[scratchWeb_1]]></title>
-    <url>%2F20180201%2Fscratch_1%2F</url>
-    <content type="text"><![CDATA[scratch_web 3.0构建问题及解决方案 开源scratch3.0开源github 编译过程npm install issues 编译过程中,chromedriver组件由于各种问题无法安装，尝试网上方法更换镜像源失败npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver 解决方案：下载node_chromedriver源码git clone https://github.com/giggio/node-chromedriver.gitcd node-chromedrivernpm install 安装完依赖包后会进入下载等待状态，此时可中止安装手动下载Download保存到/tmp/chromedriver/chromedriver_linux64.zip后重新node ./install.js 即可完成安装 启动npm start Then go to here- the playground outputs the default GUI component]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[scratchWeb_0]]></title>
-    <url>%2F20180123%2Fscratch_0%2F</url>
-    <content type="text"><![CDATA[scratch_web Project前期调研笔记 竞品分析1、 核桃编程scratch在线编辑平台平台地址：核桃在线scratch平台!解决方案：加载二次开发的swf文件实现在线scratch编辑功能实现： 1、 在线编辑 2、 导入导出 3、 上传、分享 4、 在线客服相关前端技术： 1、 fetch(最新前端ajax) 2、 swfobject(github开源swf文件加载框架)swfobject_GitHub! 3、 webCpu(??疑为公司内部框架技术)详细分析： 该平台使用scratch官方提供的swf文件进行二次开发编译，生成自己的平台(二次开发编译仅仅包括添加logo并改一个颜色…在下面可以看到和官方swf的对比)。平台添加服务器上传和分享功能。(具体功能实现待详细试用分析) 该平台加载swf使用github开源框架。 2、 编玩边学平台需注册体验。平台地址：编玩边学解决方案：加载二次开发的swf文件实现在线scratch编辑功能实现： 1、 在线编辑 2、 导入导出 3、 上传、分享 4、 在线客服相关前端技术： 1、 使用前端框架(技术栈不够深没看出哪个) 2、 在线客服是外包的。详细分析： 该平台使用scratch官方提供的swf文件进行二次开发编译。完成度和核桃编程不相上下。加载swf部分未使用任何框架技术。 3、 诺丁科技平台地址：诺丁科技解决方案：未发布的javascript做引擎的scratch3.0平台功能实现： 1、 在线编辑 2、 导入导出 3、 上传、分享 4、 在线客服相关前端技术： 1、 scratch3.0详细分析： 该平台使用民间开源scratch3.0二次开发。 解决方案1、 源码编译官网源码不完整。编译不通过。开源开一半、不如闭着自己玩。GG 2、 引用swf(scratch2.0)//TODO官方在安装软件时附带swf文件。可用于在web页面上部署本人未接触过flash相关编程，定制需求实现困难。应用难度待测试。预计单模块完成时间：100工时官方swf引用效果：Scrach在线编辑器 3、 开发相关js模块(scratch3)github相关代码。靠谱的没找到。全部都是个人开发者写着玩的。二次开发需要极大投入和长开发周期。都是前台工作。本人专业毕竟是后台…..预计单模块完成时间：n工时 4、 直接引用外部页面//TODO直接iframe引用外部成品网页。简单立竿见影版权问题集成问题项目安全问题预计单模块完成时间：2工时 结论及计划包括网易在内大多数平台均使用略微定制swf文件并部署方法搭建自己的scratch编辑平台。拟使用 引用swf 解决方案搭建codingmarch_scarch平台。//TODO预计工时待评估。粗略估计单模块完成需100工时]]></content>
-      <categories>
-        <category>webProject</category>
-      </categories>
-      <tags>
-        <tag>scratchWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[mybatis_1]]></title>
-    <url>%2F20180123%2Fmybatis_1%2F</url>
-    <content type="text"><![CDATA[mybatis demoProject demo程序需求对订单商品案例中的用户表进行增删改查操作1、 根据用户id查询用户信息2、 根据用户名称模糊查询用户列表3、 添加用户4、 删除用户5、 修改用户 环境准备]]></content>
-      <categories>
-        <category>框架</category>
-      </categories>
-      <tags>
-        <tag>mybatis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[mybatis_0]]></title>
-    <url>%2F20180123%2Fmybatis_0%2F</url>
-    <content type="text"><![CDATA[mybatis原理相关 mybatis总览mybatis是一个封装jdbc的持久层框架，mybatic让程序员只关注sql本事，而不需要去关注如链接创建、statement的创建等操作相比hibernate，具有sql透明的优势Mybatis会将输入参数和输出结果进行映射。相对来说，hibernate是将对象关系和表进行映射。 分析jdbc的问题原生jdbc代码public static void main(String[] args) &#123; Connection connection = null; PreparedStatement preparedStatement = null; ResultSet resultSet = null; try &#123; //1、加载数据库驱动 Class.forName("com.mysql.jdbc.Driver"); //2、通过驱动管理类获取数据库链接 connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8", "root", "root"); //3、定义sql语句 ?表示占位符 String sql = "select * from user where username = ?"; //4、获取预处理statement preparedStatement = connection.配置文件(主要操作对象prepareStatement(sql); //5、设置参数，第一个参数为sql语句中参数的序号（从1开始），第二个参数为设置的参数值配置文件(主要操作对象 preparedStatement.setString(1, "王五"); //6、向数据库发出sql执行查询，查询出结果集 resultSet = preparedStatement.executeQuery(); //7、遍历查询结果集 while(resultSet.next())&#123; System.out.println(resultSet.getString("id")+" "+resultSet.getString("username")); &#125; &#125; catch (Exception e) &#123; e.printStackTrace(); &#125;finally&#123; //8、释放资源 if(resultSet!=null)&#123; try &#123; resultSet.close(); &#125; catch (SQLException e) &#123; // TODO Auto-generated catch block e.printStackTrace(); &#125; &#125; if(preparedStatement!=null)&#123; try &#123; preparedStatement.close(); &#125; catch (SQLException e) &#123; // TODO Auto-generated catch block e.printStackTrace(); &#125; &#125; if(connection!=null)&#123; try &#123; connection.close(); &#125; catch (SQLException e) &#123; // TODO Auto-generated catch block e.printStackTrace(); &#125; &#125; &#125; &#125; 原生jdbc存在的问题1、 在创建连接时存在硬编码。（解决方法：全局配置文件）2、 在创建statement时存在硬编码。（解决方法：映射配置文件）3、 频繁的开启和关闭数据库链接会造成数据库性能的下降。（解决方法：数据库连接池（全局配置文件）） mybatis原理从上到下的流程原理 配置文件(主要操作对象)1、 全局配置文件（配置数据源、事务等运行时的信息）2、 映射文件(执行statement的相关信息，包括sql 语句、输入参数、输出结果) SqlSessionFactory作用：生产会话 SqlSession(主要操作对象)作用：他是一个面向程序员的接口，程序员通过该接口可以对数据库进行增删改查方法，该接口有一个默认实现：DefaultSqlSession executor(执行器)作用：SqlSession本身不能直接操作数据库，需要通过executor接口来真正的操作数据库该接口有两个实现：基本执行器、缓存执行器(默认) MappedStatement作用：封装了执行statement时的信息，包括sql语句、输入参数、输出结果。 输入参数的类型1、 简单类型(java基本数据类型)2、 pojo(自定义带getter/setter的bean)3、 hashmap同输出结果的类型 数据库]]></content>
-      <categories>
-        <category>框架</category>
-      </categories>
-      <tags>
-        <tag>mybatis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F20180104%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post$ hexo new "My New Post" More info: Writing Run server$ hexo server More info: Server Generate static files$ hexo generate More info: Generating Deploy to remote sites$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>工具&amp;效率</category>
-      </categories>
-      <tags>
-        <tag>框架</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[山人]]></title>
-    <url>%2F20170502%2F%E5%B1%B1%E4%BA%BA%2F</url>
-    <content type="text"><![CDATA[山&amp;人 本是后山人，偶做前堂客。醉舞经阁半卷书，坐井说天阔。大志戏功名，海斗量福祸。论到囊中羞涩时，怒指乾坤错。]]></content>
+    <title><![CDATA[fighting!]]></title>
+    <url>%2F20180524%2Ffighting%2F</url>
+    <content type="text"><![CDATA[所谓耻者，不足也。知不足而后勇，忍人所不能忍，为人所不能为。可成大勇。 傻老婆哦。人性啊是很让人绝望的东西。懒惰、欲望，充满欲望而又懒惰。如此的矛盾。每个人都是这样啊。正视他,因为在人性面前谁都躲不掉。话说回来。就算躲得掉我们也要正视他。因为自然就是这么神奇，人性又是充满希望的东西。人性是人类所有进步的内在动力来源啊。所有的。无一例外。不说三次工业革命都是因为懒惰的力量，也不说勾践卧薪尝胆，张仪官拜秦相，吕蒙士别三日是因为耻辱的力量。那都是大人物。写在书上的。 而就说我吧，我一直羡慕别人，别人被嘲笑穷、嘲笑笨的时候我可羡慕了。他们被嘲笑的是他们可以改变的东西，而我被人嘲笑矮啊。。。那我能怎么办。我是比谁都绝望的。那我只能在别的地方比他们都厉害。我得让我的心知道我比他们厉害。我得让他们知道我比他们厉害。就算我高考不行，就算我每天打游戏不上课。他们也知道。张天阳啊。是个很厉害的人。所以我那会学的时候是真的拼命，所以我竭尽全力对待每一件事情。所以我从没有停止思考。不停的想事情能不能做的更好、我能不能变得更厉害。这很累，这很痛苦。 所有的进步都反人性的，变强都是痛苦的。而有时候顺着人性也是痛苦的。比如会耻辱。那么只有当顺着人性的痛苦超过逆着人性的痛苦时。人才愿意去变强。只有当耻辱的痛苦超过安逸和懒惰的快乐时。人才愿意去变强。这就是力量。这是耻辱的力量。耻辱的力量是很强大的。记得室友打牌被嘲讽两句就砍死一个宿舍的马加爵，还有好多类似的，这是拿耻辱来伤害别人。而我们更不能拿耻辱的力量来伤害自己。耻辱是人性留给我们唯一翻盘的武器。知耻而后勇。 每一个人都有别人嘲笑的点。每一个都有。到明星高管，到乞丐市井。每一个都有。再有钱再成功在厉害的人，也必然会有人嘲笑他。而他们的从容和不在意不是身上钱和权给的力量。经常会有高官被人出言不逊以后扬言要弄死对方然后被拉下马的。这些人并不受人尊敬。是他们在努力和拼搏以后，将敌人的武器-耻辱，和自己的弱点-自尊。变成自己的武器-荣耀，和自己的盔甲-自信。但是过程是及其痛苦的。尤其是习惯了懒惰和逃避。我愿意和老婆一起。我愿意帮你，鼓励你，陪着你。我们一起变强！我爱你老婆。但行好事，莫问前程。]]></content>
       <categories>
         <category>悟&amp;空</category>
       </categories>
       <tags>
-        <tag>空</tag>
+        <tag>悟</tag>
       </tags>
   </entry>
 </search>
