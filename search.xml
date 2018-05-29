@@ -1,95 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title><![CDATA[scratchWeb_版本日志]]></title>
-      <url>/20180301/scratch_3/</url>
-      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>codingScratch版本发布日志</p>
-</blockquote>
-<a id="more"></a>
-<h1 id="codingScratch"><a href="#codingScratch" class="headerlink" title="codingScratch"></a>codingScratch</h1><p>项目地址：<a href="http://www.codingmarch.com/scratchHome/" target="_blank" rel="external">codingScratch</a></p>
-<p>项目架构 &amp; 技术栈：</p>
-<pre><code>- coding_server:系统后台       ssm
-- coding-march: 支持页面前端    vue
-- codingScratch:scratch编辑器  react
-</code></pre><p>项目多媒体资源位置：  www.codingmarch.com/storage<br>项目课程资源位置：    www.codingmarch.com/lessons<br>源码svn地址：svn://www.maquxueyuan.com/{项目名}</p>
-<h1 id="版本号：v-1-0"><a href="#版本号：v-1-0" class="headerlink" title="版本号：v 1.0"></a>版本号：v 1.0</h1><ol>
-<li>发布日期:2018-5-29</li>
-<li>版本更新：<ul>
-<li>用户系统</li>
-<li>课程系统</li>
-<li>权限管理</li>
-<li>前端展示页面</li>
-<li>中文支持</li>
-<li>编辑器内本地资源上传支持</li>
-<li>编辑器外观更新</li>
-<li>编辑器已知BUG修复</li>
-</ul>
-</li>
-<li>issue||bug||todo<ul>
-<li>无人化付费模块</li>
-<li>微信公众号对接</li>
-<li>增加界面提示，提升用户友好度</li>
-<li>更新美术&amp;UI设计</li>
-</ul>
-</li>
-</ol>
-<h1 id="版本号：v-0-1-0"><a href="#版本号：v-0-1-0" class="headerlink" title="版本号：v 0.1.0"></a>版本号：v 0.1.0</h1><ol>
-<li>发布日期：2018-2-28</li>
-<li>版本更新：<ul>
-<li>UI中文支持</li>
-<li>Blocks中文支持</li>
-<li>角色素材库、背景素材库、声音素材库剥离</li>
-<li>默认项目定制</li>
-<li>可正式作为教学工具使用</li>
-</ul>
-</li>
-<li>issue||bug||todo<ul>
-<li>语言默认为中文</li>
-<li>丰富当前自有素材库</li>
-<li>外部服务器框架的搭建</li>
-</ul>
-</li>
-</ol>
-<h1 id="版本号：v-0-0-1"><a href="#版本号：v-0-0-1" class="headerlink" title="版本号：v 0.0.1"></a>版本号：v 0.0.1</h1><ol>
-<li>发布日期：2018-02-10</li>
-<li>版本更新：<ul>
-<li>scratch基本功能</li>
-<li>项目下载、上传功能。</li>
-<li>ui定制</li>
-<li>默认项目定制</li>
-</ul>
-</li>
-<li><p>issue||bug||todo</p>
-<ul>
-<li>定制素材库支持</li>
-<li>中文ui支持</li>
-<li>ui深度定制</li>
-<li>默认项目配置</li>
-<li>登陆器</li>
-<li>课程管理、加载模块</li>
-</ul>
-<p>～～ # codingScratch<br>开源地址：<a href="https://github.com/unsc1902/scratch-gui.git" target="_blank" rel="external">github</a><br>发布地址：<a href="http://www.codingmarch.com/codingScratch/" target="_blank" rel="external">codingScratch</a><br><em>自有素材库的跨域访问问题导致备用地址暂时失效，待搭建服务器后重新启用</em><br>备用地址：<a href="https://unsc1902.github.io/scratch-gui/">codingScratch in unsc1902</a>~~</p>
-</li>
-</ol>
-]]></content>
-      
-        <categories>
-            
-            <category> webProject </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> scratchWeb </tag>
-            
-        </tags>
-        
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[scratchWeb_版本日志]]></title>
+    <url>%2F20180530%2Fscratch_3%2F</url>
+    <content type="text"><![CDATA[codingScratch版本发布日志 codingScratch项目地址：codingScratch 项目架构 &amp; 技术栈： - coding_server:系统后台 ssm - coding-march: 支持页面前端 vue - codingScratch:scratch编辑器 react 项目多媒体资源位置： www.codingmarch.com/storage项目课程资源位置： www.codingmarch.com/lessons源码svn地址：svn://www.maquxueyuan.com/{项目名} 版本号：v 1.0 发布日期:2018-5-29 版本更新： 用户系统 课程系统 权限管理 前端展示页面 中文支持 编辑器内本地资源上传支持 编辑器外观更新 编辑器已知BUG修复 issue||bug||todo 无人化付费模块 微信公众号对接 增加界面提示，提升用户友好度 更新美术&amp;UI设计 版本号：v 0.1.0 发布日期：2018-2-28 版本更新： UI中文支持 Blocks中文支持 角色素材库、背景素材库、声音素材库剥离 默认项目定制 可正式作为教学工具使用 issue||bug||todo 语言默认为中文 丰富当前自有素材库 外部服务器框架的搭建 版本号：v 0.0.1 发布日期：2018-02-10 版本更新： scratch基本功能 项目下载、上传功能。 ui定制 默认项目定制 issue||bug||todo 定制素材库支持 中文ui支持 ui深度定制 默认项目配置 登陆器 课程管理、加载模块 ～～ # codingScratch开源地址：github发布地址：codingScratch自有素材库的跨域访问问题导致备用地址暂时失效，待搭建服务器后重新启用备用地址：codingScratch in unsc1902~~]]></content>
+      <categories>
+        <category>webProject</category>
+      </categories>
+      <tags>
+        <tag>scratchWeb</tag>
+      </tags>
+  </entry>
 </search>
