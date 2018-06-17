@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://unsc1902.github.io/"/>
-  <updated>2018-05-29T09:13:41.320Z</updated>
+  <updated>2018-05-29T09:13:41.000Z</updated>
   <id>http://unsc1902.github.io/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://unsc1902.github.io/20180530/scratch_3/"/>
     <id>http://unsc1902.github.io/20180530/scratch_3/</id>
     <published>2018-05-29T18:56:43.000Z</published>
-    <updated>2018-05-29T09:13:41.320Z</updated>
+    <updated>2018-05-29T09:13:41.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>codingScratch版本发布日志</p>
 </blockquote>
 <a id="more"></a>
-<h1 id="codingScratch"><a href="#codingScratch" class="headerlink" title="codingScratch"></a>codingScratch</h1><p>项目地址：<a href="http://www.codingmarch.com/scratchHome/" target="_blank" rel="external">codingScratch</a></p>
+<h1 id="codingScratch"><a href="#codingScratch" class="headerlink" title="codingScratch"></a>codingScratch</h1><p>项目地址：<a href="http://www.codingmarch.com/scratchHome/" target="_blank" rel="noopener">codingScratch</a></p>
 <p>项目架构 &amp; 技术栈：</p>
 <pre><code>- coding_server:系统后台       ssm
 - coding-march: 支持页面前端    vue
@@ -87,7 +87,7 @@
 <li>登陆器</li>
 <li>课程管理、加载模块</li>
 </ul>
-<p>~~ # codingScratch<br>开源地址：<a href="https://github.com/unsc1902/scratch-gui.git" target="_blank" rel="external">github</a><br>发布地址：<a href="http://www.codingmarch.com/codingScratch/" target="_blank" rel="external">codingScratch</a><br><em>自有素材库的跨域访问问题导致备用地址暂时失效，待搭建服务器后重新启用</em><br>备用地址：<a href="https://unsc1902.github.io/scratch-gui/">codingScratch in unsc1902</a>~~</p>
+<p>~~ # codingScratch<br>开源地址：<a href="https://github.com/unsc1902/scratch-gui.git" target="_blank" rel="noopener">github</a><br>发布地址：<a href="http://www.codingmarch.com/codingScratch/" target="_blank" rel="noopener">codingScratch</a><br><em>自有素材库的跨域访问问题导致备用地址暂时失效，待搭建服务器后重新启用</em><br>备用地址：<a href="https://unsc1902.github.io/scratch-gui/">codingScratch in unsc1902</a>~~</p>
 </li>
 </ol>
 ]]></content>
